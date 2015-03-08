@@ -7,14 +7,8 @@ categories: Googleanalytics
 published: true
 ---
 
-## 
+## Background
 
-I'm Owen, I work in the Insight Team at the blood cancer charity [Leukaemia & Lymphoma Research](https://leukaemialymphomaresearch.org.uk/). This will be a rarely updated blog about data, analytics, fundraising and code to do with the charity sector. I've started it for two reasons :
+Previous to moving to the charity sector I did digital marketing at a fairly mature ecommerce startup. Practically all marketing was via digital channels and anyone posting links on social media or in emails was au fait with Google Analytics. This meant that all the links were tracked with campaign tracking I.E. adding tracking text about the link and where it was being placed onto the end of the link like this 
 
-- There's sometimes things we build at Leukaemia & Lymphoma Research that might be handy to other charities. This can be a place I can write about and share them.
-
-- A place to writeup some of the [Coursera] (https://www.coursera.org/) projects I'm working on in the hope it'll solidify learning.
-
-
-
-Built on Jekyll using GitHub Pages and the [pixyll](https://github.com/johnotander/pixyll) theme.
+> http://www.example.com?utm_source=newsletter&utm_medium=email&utm_content=topbanner

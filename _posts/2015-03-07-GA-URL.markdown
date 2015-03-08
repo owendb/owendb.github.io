@@ -7,6 +7,11 @@ categories: Googleanalytics
 published: true
 ---
 
+##Intro
+
+This tool has been designed to let multiple users across an organisation add Google Analytics URL tracking to their links in a consistent way that doesn't require indepth knowledge of Google Analyics. Resulting in clean crisp campaign data in Google Analytics and people not having to worry about whether something is a 'medium' or a 'source'. It's a suped up but simplified version of <a href="https://support.google.com/analytics/answer/1033867?hl=en-GB" target="_blank">this</a>. As a bonus it's got built in Bit.ly shortening
+
+
 ## Background
 
 Previous to moving to the charity sector I did digital marketing at a fairly mature ecommerce startup. Practically all marketing was via digital channels and anyone posting links on social media or in emails was au fait with Google Analytics. This meant that all the links were tracked with campaign tracking I.E. adding tracking text about the link and where it was being placed onto the end of the link like this 
