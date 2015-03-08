@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Hello world
-date: 2015-03-07 12:31:19
-summary: "An introduction"
-categories: blog meta intro me
+title: Google Analytics URL campaign tracker plus
+date: 2015-03-07 19:31:19
+summary: "A better tool for adding campaign information onto urls in a multi user organisation"
+categories: Googleanalytics 
 published: true
 ---
 
-Hello.
+## 
 
 I'm Owen, I work in the Insight Team at the blood cancer charity [Leukaemia & Lymphoma Research](https://leukaemialymphomaresearch.org.uk/). This will be a rarely updated blog about data, analytics, fundraising and code to do with the charity sector. I've started it for two reasons :
 
@@ -15,6 +15,6 @@ I'm Owen, I work in the Insight Team at the blood cancer charity [Leukaemia & Ly
 
 - A place to writeup some of the [Coursera] (https://www.coursera.org/) projects I'm working on in the hope it'll solidify learning.
 
-## Stack
+
 
 Built on Jekyll using GitHub Pages and the [pixyll](https://github.com/johnotander/pixyll) theme.
