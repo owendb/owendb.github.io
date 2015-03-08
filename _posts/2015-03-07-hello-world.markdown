@@ -13,7 +13,7 @@ I'm Owen, I work in the Insight Team at the blood cancer charity Leukaemia & Lym
 
 - There's sometimes things we build at Leukaemia & Lymphoma Research that might be handy to other charities. This can be a place I can write about and share them.
 
-- A place to writeup some of the [Coursera] (https://www.coursera.org/) project work I'm working on In the hope it'll solidify learning.
+- A place to writeup some of the [Coursera] (https://www.coursera.org/) project work I'm working on in the hope it'll solidify learning.
 
 ## Stack
 
