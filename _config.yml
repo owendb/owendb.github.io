@@ -4,7 +4,7 @@ email:       your_email@example.com
 author:      Owen Bowden
 description: "Sharing some things we've built"
 baseurl:     ""
-url:         "owendb.github.io"
+url:         ""
 
 # Google analytics
 google_analytics:
