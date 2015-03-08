@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Hello world
-date: {}
-summary: "Pixyll is a simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+date: 2015-03-07 12:31:19
+summary: "Introductions"
 categories: jekyll pixyll
 published: true
 ---
