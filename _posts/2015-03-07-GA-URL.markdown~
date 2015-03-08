@@ -1,0 +1,20 @@
+---
+layout: post
+title: Google Analytics URL campaign tracker plus
+date: 2015-03-07 19:31:19
+summary: "A better tool for adding campaign information onto urls in a multi user organisation"
+categories: Googleanalytics 
+published: true
+---
+
+## 
+
+I'm Owen, I work in the Insight Team at the blood cancer charity [Leukaemia & Lymphoma Research](https://leukaemialymphomaresearch.org.uk/). This will be a rarely updated blog about data, analytics, fundraising and code to do with the charity sector. I've started it for two reasons :
+
+- There's sometimes things we build at Leukaemia & Lymphoma Research that might be handy to other charities. This can be a place I can write about and share them.
+
+- A place to writeup some of the [Coursera] (https://www.coursera.org/) projects I'm working on in the hope it'll solidify learning.
+
+
+
+Built on Jekyll using GitHub Pages and the [pixyll](https://github.com/johnotander/pixyll) theme.
