@@ -3,8 +3,8 @@ title:       Charity data bits
 email:       your_email@example.com
 author:      John Otander
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl:     ""
-url:         "owendb.github.io"
+baseurl:     "owendb.github.io"
+url:         ""
 
 # Google analytics
 google_analytics:
