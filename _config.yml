@@ -1,6 +1,6 @@
 # Site settings
 title:       Charity data bits
-email:       your_email@example.com
+email:       owen.bowden@gmail.com
 author:      Owen Bowden
 description: "Sharing some things we've built"
 baseurl:     ""
@@ -22,7 +22,7 @@ disqus_shortname:
 show_social_icons: true
 github_username:	"owendb"
 stackoverflow_id:
-twitter_username:
+twitter_username: "tweetsfromowen"
 google_plus_id:
 linkedin_username:
 bitcoin_url:
