@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Hello, Pixyll"
-date: 2015-02-10 12:31:19
+title: Hello world
+date: {}
 summary: "Pixyll is a simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 categories: jekyll pixyll
 published: true
@@ -9,16 +9,11 @@ published: true
 
 Hello.
 
-A test
+This will be a rarely updated blog, I've started it for two reasons
 
-It's pretty minimal, but leverages large type and drastic contrast to make a statement, on all devices.
+- There's sometimes things we build at Leukaemia & Lymphoma Research that might be handy to other charities. This can be a place I can write about and share them.
 
-<blockquote>
-  <p>
-    Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
-  </p>
-  <footer><cite title="Antoine de Saint-Exupéry">Antoine de Saint-Exupéry</cite></footer>
-</blockquote>
+- A place to writeup some of the [Coursera] (https://www.coursera.org/) projects that I'm trying to do. Writing them up helps solidify the learnings.
 
 ## Where is it?
 
