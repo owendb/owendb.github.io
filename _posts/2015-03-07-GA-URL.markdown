@@ -24,6 +24,14 @@ Moving to the charity sector and a bigger organisation I found it difficult to g
 * Thelondonmarathon
 * Marathon2015
 
-To solve some of these issues we rewrote <a href="https://support.google.com/analytics/answer/1033867?hl=en-GB" target="_blank">this</a> so that a users just get to select from dropdowns, removing choice and confusion and leaving consistant tracked links. Thanks to Tom from Royal Marsden for getting me to send him my half finished work that he finished and Jim for sorting some Javascript.
+To solve some of these issues we rewrote <a href="https://support.google.com/analytics/answer/1033867?hl=en-GB" target="_blank">this</a> so that users just get to select from dropdowns, removing choice and confusion and leaving consistant tracked links. Thanks to Tom from Royal Marsden for getting me to send him my half finished work that he finished and Jim for sorting some Javascript.
 
 Demo and download (here)[#]
+
+## How it works
+
+Remove this
+
+replace with this
+
+

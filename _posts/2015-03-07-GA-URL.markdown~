@@ -17,3 +17,13 @@ This tool has been designed to let multiple users across an organisation add Goo
 Previous to moving to the charity sector I did digital marketing at a fairly mature ecommerce startup. Practically all marketing was via digital channels and anyone posting links on social media or in emails was au fait with Google Analytics. This meant that all the links were tracked with campaign tracking I.E. adding tracking text about the link and where it was being placed onto the end of the link like this 
 
 > http://www.example.com?utm_source=newsletter&utm_medium=email&utm_content=topbanner
+
+Moving to the charity sector and a bigger organisation I found it difficult to get everyone trackin links in a consistant way. Press and fundraising don't use GA but might well be tweeting. If you're not using GA it's not surprising if you don't know the difference between a source and a medium, even naming campaigns can become tricky as there can be a number of ways to write the same thing :
+
+* LondonMarathon
+* Thelondonmarathon
+* Marathon2015
+
+To solve some of these issues we rewrote <a href="https://support.google.com/analytics/answer/1033867?hl=en-GB" target="_blank">this</a> so that users just get to select from dropdowns, removing choice and confusion and leaving consistant tracked links. Thanks to Tom from Royal Marsden for getting me to send him my half finished work that he finished and Jim for sorting some Javascript.
+
+Demo and download (here)[#]
