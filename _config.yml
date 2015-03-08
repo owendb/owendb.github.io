@@ -1,10 +1,10 @@
 # Site settings
 title:       Charity data bits
 email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl:     "owendb.github.io"
-url:         ""
+author:      Owen Bowden
+description: "Sharing some things we've built"
+baseurl:     ""
+url:         "owendb.github.io"
 
 # Google analytics
 google_analytics:
