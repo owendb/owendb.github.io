@@ -32,7 +32,7 @@ To solve some of these issues we rewrote <a href="https://support.google.com/ana
 
 ## What are we trying to solve and how have we tried to solve it?
 
-### Problem 1
+### Problem 1 - parameter confusion
 
 > Is "email" the medium or the source? What about "newsletter"? 
 
@@ -49,7 +49,7 @@ and make it this
 
 3
 
-### Problem 2
+### Problem 2 - multiple spellings
 
 > How are you spelling the campaign?
 
@@ -63,7 +63,7 @@ and make it this
 
 2
 
-### Problem 3
+### Problem 3 - long links
 
 > Urgh, the link is now too long and ugly
 
