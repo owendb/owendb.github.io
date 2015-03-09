@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Google Analytics URL campaign tracker plus &#8211; Bitsfromowen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A better tool for adding campaign parameters onto urls in a multi user organisation">
+    <meta name="author" content="Owen Bowden">
+    <meta name="keywords" content="googleanalytics">
+    <link rel="canonical" href="http://owendb.github.io/googleanalytics/2015/03/07/GA-URL/">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/pixyll.css" type="text/css">
+
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
+    
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    
+
+    <!-- Open Graph -->
+    <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Google Analytics URL campaign tracker plus">
+    <meta property="og:description" content="Sharing some things we've built">
+    <meta property="og:url" content="http://owendb.github.io/googleanalytics/2015/03/07/GA-URL/">
+    <meta property="og:site_name" content="Bitsfromowen">
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+</head>
+
+<body class="animated fade-in-down">
+  <div class="site-wrap">
+    <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="http://owendb.github.io" class="site-title">Bitsfromowen</a>
+      <nav class="site-nav right">
+        <a href="/about/">About</a>
+<a href="/contact/">Contact</a>
+
+      </nav>
+      <div class="clearfix"></div>
+      
+        <div class="social-icons">
+  <div class="left">
+    
+      <a class="fa fa-github" href="https://github.com/owendb"></a>
+    
+    
+    <a class="fa fa-rss" href="/feed.xml"></a>
+    
+      <a class="fa fa-twitter" href="https://twitter.com/tweetsfromowen"></a>
+    
+    
+    
+      <a class="fa fa-envelope" href="mailto:owen.bowden@gmail.com"></a>
+    
+    
+  </div>
+  <div class="right">
+    
+    
+    
+  </div>
+</div>
+<div class="clearfix"></div>
+
+      
+    </div>
+  </div>
+</header>
+
+
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        
+
+
+<div class="post-header mb2">
+  <h1>Google Analytics URL campaign tracker plus</h1>
+  <span class="post-meta">Mar 7, 2015</span><br>
+  
+  <span class="post-meta small">2 minute read</span>
+</div>
+
+<article class="post-content">
+  <h2 id="intro">Intro</h2>
+
+<p>We&rsquo;ve built a little webpage tool to replace <a href="https://support.google.com/analytics/answer/1033867?hl=en-GB" target="_blank">this</a>. It&rsquo;s been designed to let multiple users across an organisation add Google Analytics URL tracking to their links in a consistent way that doesn&rsquo;t require indepth knowledge of Google Analyics. Resulting in clean crisp campaign data in Google Analytics and  not having to worry about whether something is a &lsquo;medium&rsquo; or a &#39;source&rsquo;. </p>
+
+<ul>
+<li>Here&rsquo;s a demo of it. </li>
+<li>Download it as a zip here (with setup instructions). </li>
+<li>Fork it on GitHub here.</li>
+</ul>
+
+<h2 id="background">Background</h2>
+
+<p>Previous to moving to the charity sector I did digital marketing at a mature ecommerce startup. Practically all marketing was via digital channels and anyone posting links on social media or in emails was au fait with Google Analytics as they were in the digital marketing team. So all links went out with nice campaign url parameters added like this: </p>
+
+<blockquote>
+<p>http://www.example.com?utm<em>source=newsletter&amp;utm</em>medium=email&amp;utm_content=topbanner</p>
+</blockquote>
+
+<p>However moving to the charity sector (or perhaps just a bigger organisation) I found it difficult to get everyone tracking links in a consistant way. The press team and sports fundraising team don&rsquo;t use GA (they should, but that&rsquo;s a separate issue) however both could well be tweeting links or writing external web content. If you don&rsquo;t use Google Analytics is it any wonder you don&rsquo;t always remember whether email is the source or the medium? Even if you can get that bit trained for different teams you might end up with lots of different ways of spelling a campaign. E.G. </p>
+
+<ul>
+<li>LondonMarathon</li>
+<li>Thelondonmarathon</li>
+<li>Marathon2015</li>
+</ul>
+
+<p>To solve some of these issues we rewrote <a href="https://support.google.com/analytics/answer/1033867?hl=en-GB" target="_blank">this</a> so that users just get to select from dropdowns, removing the elements of choice that led to confusion resulting in consistant tracked campaigns ready to be analysed. </p>
+
+<h2 id="what-are-we-trying-to-solve-and-how-have-we-tried-to-solve-it?">What are we trying to solve and how have we tried to solve it?</h2>
+
+<h3 id="problem-1">Problem 1</h3>
+
+<blockquote>
+<p>Is &ldquo;email&rdquo; the medium or the source? What about &ldquo;newsletter&rdquo;? </p>
+</blockquote>
+
+<p>Soloution:</p>
+
+<p>Make it one dropdown, 99% of the time the two parameters are fixed together, so make it one choice.</p>
+
+<p>Take this</p>
+
+<p>1
+2</p>
+
+<p>and make it this</p>
+
+<p>3</p>
+
+<h3 id="problem-2">Problem 2</h3>
+
+<blockquote>
+<p>How are you spelling the campaign?</p>
+</blockquote>
+
+<p>Make it one dropdown with one spelling. Campaigns aren&rsquo;t added that often for us, adding a new campaign to the tool is the easiest of adding anything, meaning that most users with really basic HTML knowledge can add them in as and when they need them</p>
+
+<p>Take this</p>
+
+<p>1</p>
+
+<p>and make it this</p>
+
+<p>2</p>
+
+<h3 id="problem-3">Problem 3</h3>
+
+<blockquote>
+<p>Urgh, the link is now too long and ugly</p>
+</blockquote>
+
+<p>Add a bit.ly API</p>
+
+<p>Like this</p>
+
+<p>1</p>
+
+<h2 id="credits">Credits</h2>
+
+<p>This has been a collabartive tool by two cancer charities, Leukaemia &amp; Lymphoma Research and The Royal Marsden Cancer Charity. Thanks to <a href="#">Tom</a> from <a href="#">Royal Marsden</a> for remembering about and finishing the mostly complete but semi abondened code and <a href="#">Jim</a> from <a href="#">LLR</a> for fixing the javascript on version 2.0. Code examples and help on the way from <a href="#">this</a>, <a href="#">this</a>, <a href="#">this</a> and <a href="#">this</a>. Long live copy and paste coding and folks who share examples.</p>
+
+</article>
+
+
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+  <div class="p2 wrap">
+    <div class="measure mt1 center">
+      <small>
+        Crafted with &lt;3 by <a href="http://johnotander.com">John Otander</a> (<a href="https://twitter.com/4lpine">@4lpine</a>).<br>
+        &lt;/&gt; available on <a href="https://github.com/johnotander/pixyll">Github</a>.
+      </small>
+    </div>
+  </div>
+</footer>
+
+
+
+</body>
+</html>

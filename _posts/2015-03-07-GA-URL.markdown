@@ -2,36 +2,77 @@
 layout: post
 title: Google Analytics URL campaign tracker plus
 date: 2015-03-07 19:31:19
-summary: "A better tool for adding campaign information onto urls in a multi user organisation"
+summary: "A better tool for adding campaign parameters onto urls in a multi user organisation"
 categories: Googleanalytics 
 published: true
 ---
 
 ##Intro
 
-This tool has been designed to let multiple users across an organisation add Google Analytics URL tracking to their links in a consistent way that doesn't require indepth knowledge of Google Analyics. Resulting in clean crisp campaign data in Google Analytics and people not having to worry about whether something is a 'medium' or a 'source'. It's a suped up but simplified version of <a href="https://support.google.com/analytics/answer/1033867?hl=en-GB" target="_blank">this</a>. As a bonus it's got built in Bit.ly shortening
+We've built a little webpage tool to replace <a href="https://support.google.com/analytics/answer/1033867?hl=en-GB" target="_blank">this</a>. It's been designed to let multiple users across an organisation add Google Analytics URL tracking to their links in a consistent way that doesn't require indepth knowledge of Google Analyics. Resulting in clean crisp campaign data in Google Analytics and  not having to worry about whether something is a 'medium' or a 'source'. 
+
+* Here's a demo of it. 
+* Download it as a zip here (with setup instructions). 
+* Fork it on GitHub here.
 
 
 ## Background
 
-Previous to moving to the charity sector I did digital marketing at a fairly mature ecommerce startup. Practically all marketing was via digital channels and anyone posting links on social media or in emails was au fait with Google Analytics. This meant that all the links were tracked with campaign tracking I.E. adding tracking text about the link and where it was being placed onto the end of the link like this 
+Previous to moving to the charity sector I did digital marketing at a mature ecommerce startup. Practically all marketing was via digital channels and anyone posting links on social media or in emails was au fait with Google Analytics as they were in the digital marketing team. So all links went out with nice campaign url parameters added like this: 
 
 > http://www.example.com?utm_source=newsletter&utm_medium=email&utm_content=topbanner
 
-Moving to the charity sector and a bigger organisation I found it difficult to get everyone trackin links in a consistant way. Press and fundraising don't use GA but might well be tweeting. If you're not using GA it's not surprising if you don't know the difference between a source and a medium, even naming campaigns can become tricky as there can be a number of ways to write the same thing :
+However moving to the charity sector (or perhaps just a bigger organisation) I found it difficult to get everyone tracking links in a consistant way. The press team and sports fundraising team don't use GA (they should, but that's a separate issue) however both could well be tweeting links or writing external web content. If you don't use Google Analytics is it any wonder you don't always remember whether email is the source or the medium? Even if you can get that bit trained for different teams you might end up with lots of different ways of spelling a campaign. E.G. 
 
 * LondonMarathon
 * Thelondonmarathon
 * Marathon2015
 
-To solve some of these issues we rewrote <a href="https://support.google.com/analytics/answer/1033867?hl=en-GB" target="_blank">this</a> so that users just get to select from dropdowns, removing choice and confusion and leaving consistant tracked links. Thanks to Tom from Royal Marsden for getting me to send him my half finished work that he finished and Jim for sorting some Javascript.
+To solve some of these issues we rewrote <a href="https://support.google.com/analytics/answer/1033867?hl=en-GB" target="_blank">this</a> so that users just get to select from dropdowns, removing the elements of choice that led to confusion resulting in consistant tracked campaigns ready to be analysed. 
 
-Demo and download (here)[#]
+## What are we trying to solve and how have we tried to solve it?
 
-## How it works
+### Problem 1
 
-Remove this
+> Is "email" the medium or the source? What about "newsletter"? 
 
-replace with this
+Soloution:
 
+Make it one dropdown, 99% of the time the two parameters are fixed together, so make it one choice.
 
+Take this
+
+1
+2
+
+and make it this
+
+3
+
+### Problem 2
+
+> How are you spelling the campaign?
+
+Make it one dropdown with one spelling. Campaigns aren't added that often for us, adding a new campaign to the tool is the easiest of adding anything, meaning that most users with really basic HTML knowledge can add them in as and when they need them
+
+Take this
+
+1
+
+and make it this
+
+2
+
+### Problem 3
+
+> Urgh, the link is now too long and ugly
+
+Add a bit.ly API
+
+Like this
+
+1
+
+## Credits
+
+This has been a collabartive tool by two cancer charities, Leukaemia & Lymphoma Research and The Royal Marsden Cancer Charity. Thanks to [Tom](#) from [Royal Marsden](#) for remembering about and finishing the mostly complete but semi abondened code and [Jim](#) from [LLR](#) for fixing the javascript on version 2.0. Code examples and help on the way from [this](#), [this](#), [this](#) and [this](#). Long live copy and paste coding and folks who share examples.
