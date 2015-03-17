@@ -10,12 +10,12 @@
         <title>Google Analytics URL campaign tracker plus</title>
         <description>&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
 
-&lt;p&gt;I built a webpage tool to replace &lt;a href=&quot;https://support.google.com/analytics/answer/1033867?hl=en-GB&quot; target=&quot;_blank&quot;&gt;this&lt;/a&gt; so that users can paste in a link and get the url parameters they need to track their campaign in Google Analytics. It&amp;rsquo;s been designed to let multiple users across an organisation add tracking in a consistent way that doesn&amp;rsquo;t require them to have any knowledge of Google Analytics. Resulting in clean crisp campaign data having to worry about &lt;em&gt;email&lt;/em&gt; being both &lt;em&gt;utm&amp;#95;medium&lt;/em&gt; and &lt;em&gt;utm&amp;#95;source&lt;/em&gt; or completely missing. &lt;/p&gt;
+&lt;p&gt;We built a &lt;a href=&quot;#&quot;&gt;webpage tool&lt;/a&gt; to replace &lt;a href=&quot;https://support.google.com/analytics/answer/1033867?hl=en-GB&quot; target=&quot;_blank&quot;&gt;this&lt;/a&gt; one by Google. so that users can paste in a link and get the url parameters they need to track their campaign in Google Analytics. It&amp;rsquo;s been designed to let multiple users across an organisation add tracking in a consistent way that doesn&amp;rsquo;t require them to have any knowledge of Google Analytics. Resulting in clean crisp campaign data having to worry about &lt;em&gt;email&lt;/em&gt; being both &lt;em&gt;utm&amp;#95;medium&lt;/em&gt; and &lt;em&gt;utm&amp;#95;source&lt;/em&gt; or worse still no tracking added at all. &lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Here&amp;rsquo;s a demo of it. &lt;/li&gt;
-&lt;li&gt;Download it as a zip here (with setup instructions). &lt;/li&gt;
-&lt;li&gt;Fork it on GitHub here.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/owendb/GA-URL-Builder-Plus/archive/master.zip&quot;&gt;Download it as a zip&lt;/a&gt; (with setup instructions). &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/owendb/GA-URL-Builder-Plus/fork&quot;&gt;Fork it on GitHub&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
@@ -34,11 +34,11 @@
 &lt;li&gt;Marathon2015&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;To solve some of these issues we built a tool so that users just select from dropdowns, removing the elements of choice that led to bad data. Source and medium get set as one selection and campaigns are limited to defined campaigns, have a look at the demo, it&amp;rsquo;ll explain it better.&lt;/p&gt;
+&lt;p&gt;To solve some of these issues we built a tool so that users just select from dropdowns, removing the elements of choice that led to bad data. Source and medium get set as one selection and campaigns are limited to defined campaigns, have a &lt;a href=&quot;#&quot;&gt;look at the demo&lt;/a&gt;, it&amp;rsquo;ll explain it better.&lt;/p&gt;
 
 &lt;h2 id=&quot;credits&quot;&gt;Credits&lt;/h2&gt;
 
-&lt;p&gt;Built by staff at two awesome cancer charities, Leukaemia &amp;amp; Lymphoma Research and The Royal Marsden Cancer Charity. Thanks to &lt;a href=&quot;https://twitter.com/thomasmpreston&quot;&gt;Tom&lt;/a&gt; from &lt;a href=&quot;http://www.royalmarsden.org/&quot;&gt;Royal Marsden&lt;/a&gt; for remembering and finsishing the tool when it was still on my list of &amp;ldquo;things I&amp;rsquo;d get round to one day&amp;rdquo; and &lt;a href=&quot;https://twitter.com/james_south&quot;&gt;Jim&lt;/a&gt; from &lt;a href=&quot;http://leukaemialymphomaresearch.org.uk/&quot;&gt;LLR&lt;/a&gt; for fixing some sketchy javascript I&amp;rsquo;d copypaste coded. Code examples and help on the way from &lt;a href=&quot;#&quot;&gt;this&lt;/a&gt;, &lt;a href=&quot;#&quot;&gt;this&lt;/a&gt;, &lt;a href=&quot;#&quot;&gt;this&lt;/a&gt; and &lt;a href=&quot;#&quot;&gt;this&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Built by staff at two awesome cancer charities, &lt;a href=&quot;#&quot;&gt;Leukaemia &amp;amp; Lymphoma Research&lt;/a&gt; and &lt;a href=&quot;#&quot;&gt;The Royal Marsden Cancer Charity&lt;/a&gt;. Thanks to &lt;a href=&quot;https://twitter.com/thomasmpreston&quot;&gt;Tom&lt;/a&gt; from &lt;a href=&quot;http://www.royalmarsden.org/&quot;&gt;Royal Marsden&lt;/a&gt; for remembering and finishing the tool when it was still on my list of &amp;ldquo;things I&amp;rsquo;d get round to one day&amp;rdquo; and &lt;a href=&quot;https://twitter.com/james_south&quot;&gt;Jim&lt;/a&gt; from &lt;a href=&quot;http://leukaemialymphomaresearch.org.uk/&quot;&gt;LLR&lt;/a&gt; for fixing some sketchy javascript I&amp;rsquo;d copypaste coded. Using code examples from &lt;a href=&quot;https://support.google.com/analytics/answer/1033867?hl=en-GB&quot;&gt; Google&lt;/a&gt; &amp;amp; &lt;a href=&quot;http://www.9lessons.info/2010/08/create-bitly-short-urls-using-jquery.htmlTech&quot;&gt;9 lessons&lt;/a&gt; nifty Bootstrap courtesy of &lt;a href=&quot;http://www.layoutit.com/&quot;&gt;Layoutit&lt;/a&gt; &amp;amp; &lt;a href=&quot;http://minikomi.github.io/Bootstrap-Form-Builder/&quot;&gt;Minikomi&lt;/a&gt; &lt;br&gt;&lt;br&gt;Any comments to &lt;a href=&quot;mailto:owen.bowden@gmail.com&quot;&gt;Owen&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 07 Mar 2015 19:31:19 +0000</pubDate>
         <link>http://owendb.github.io/googleanalytics/2015/03/07/GA-URL/</link>

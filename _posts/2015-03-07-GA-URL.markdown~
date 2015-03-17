@@ -8,11 +8,11 @@ published: true
 ---
 
 ## Intro
-I built a webpage tool to replace <a href="https://support.google.com/analytics/answer/1033867?hl=en-GB" target="_blank">this</a> so that users can paste in a link and get the url parameters they need to track their campaign in Google Analytics. It's been designed to let multiple users across an organisation add tracking in a consistent way that doesn't require them to have any knowledge of Google Analytics. Resulting in clean crisp campaign data having to worry about _email_ being both _utm&#95;medium_ and _utm&#95;source_ or completely missing. 
+We built a [webpage tool](#) to replace <a href="https://support.google.com/analytics/answer/1033867?hl=en-GB" target="_blank">this</a> one by Google. so that users can paste in a link and get the url parameters they need to track their campaign in Google Analytics. It's been designed to let multiple users across an organisation add tracking in a consistent way that doesn't require them to have any knowledge of Google Analytics. Resulting in clean crisp campaign data having to worry about _email_ being both _utm&#95;medium_ and _utm&#95;source_ or worse still no tracking added at all. 
 
-* Here's a demo of it. 
-* Download it as a zip here (with setup instructions). 
-* Fork it on GitHub here.
+* [Demo](#)
+* [Download it as a zip](https://github.com/owendb/GA-URL-Builder-Plus/archive/master.zip) (with setup instructions). 
+* [Fork it on GitHub](https://github.com/owendb/GA-URL-Builder-Plus/fork).
 
 
 ## Background
@@ -27,8 +27,9 @@ However moving to the charity sector (or perhaps just a bigger organisation) I f
 * Thelondonmarathon
 * Marathon2015
 
-To solve some of these issues we built a tool so that users just select from dropdowns, removing the elements of choice that led to bad data. Source and medium get set as one selection and campaigns are limited to defined campaigns, have a look at the demo, it'll explain it better.
+To solve some of these issues we built a tool so that users just select from dropdowns, removing the elements of choice that led to bad data. Source and medium get set as one selection and campaigns are limited to defined campaigns, have a [look at the demo](#), it'll explain it better.
 
 ## Credits
 
-Built by staff at two awesome cancer charities, Leukaemia & Lymphoma Research and The Royal Marsden Cancer Charity. Thanks to [Tom](https://twitter.com/thomasmpreston) from [Royal Marsden](http://www.royalmarsden.org/) for remembering and finsishing the tool when it was still on my list of "things I'd get round to one day" and [Jim](https://twitter.com/james_south) from [LLR](http://leukaemialymphomaresearch.org.uk/) for fixing some sketchy javascript I'd copypaste coded. Code examples and help on the way from [this](#), [this](#), [this](#) and [this](#).
+Built by staff at two awesome cancer charities, [Leukaemia & Lymphoma Research](#) and [The Royal Marsden Cancer Charity](#). Thanks to [Tom](https://twitter.com/thomasmpreston) from [Royal Marsden](http://www.royalmarsden.org/) for remembering and finishing the tool when it was still on my list of "things I'd get round to one day" and [Jim](https://twitter.com/james_south) from [LLR](http://leukaemialymphomaresearch.org.uk/) for fixing some sketchy javascript I'd copypaste coded. Using code examples from <a href="https://support.google.com/analytics/answer/1033867?hl=en-GB"> Google</a> & <a href="http://www.9lessons.info/2010/08/create-bitly-short-urls-using-jquery.htmlTech">9 lessons</a> Nifty Bootstrap courtesy of <a href="http://www.layoutit.com/">Layoutit</a> & <a href="http://minikomi.github.io/Bootstrap-Form-Builder/">Minikomi</a> <br><br>Any comments to <a href="mailto:owen.bowden@gmail.com">Owen</a><br><br>
+         
