@@ -8,7 +8,7 @@ published: true
 ---
 
 ## Intro
-We built a [webpage tool](http://owendb.github.io/GA-URL-Builder-Plus/) to replace <a href="https://support.google.com/analytics/answer/1033867?hl=en-GB" target="_blank">this</a> one by Google. so that users can paste in a link and get the url parameters they need to track their campaign in Google Analytics. It's been designed to let multiple users across an organisation add tracking in a consistent way that doesn't require them to have any knowledge of Google Analytics. Resulting in clean crisp campaign data having to worry about _email_ being both _utm&#95;medium_ and _utm&#95;source_ or worse still no tracking added at all. 
+We built a [webpage tool](http://owendb.github.io/GA-URL-Builder-Plus/) to replace <a href="https://support.google.com/analytics/answer/1033867?hl=en-GB" target="_blank">this</a> one by Google. It's so users can paste in a link and get the url parameters they need to track their campaign in Google Analytics. It's been designed to let multiple users across an organisation add tracking in a consistent way that doesn't require them to have any knowledge of Google Analytics. Resulting in clean crisp campaign data having to worry about _email_ being both _utm&#95;medium_ and _utm&#95;source_ or worse still no tracking added at all. 
 
 * [Demo](http://owendb.github.io/GA-URL-Builder-Plus/)
 * [Download it as a zip](https://github.com/owendb/GA-URL-Builder-Plus/archive/master.zip) (with setup instructions). 
@@ -21,13 +21,13 @@ Previous to moving to the charity sector I did digital marketing at a mature eco
 
 > http://www.example.com?utm&#95;source=newsletter&utm&#95;medium=email&utm&#95;content=topbanner
 
-However moving to the charity sector (or perhaps just a bigger organisation) I found it difficult to get everyone tracking links in a consistant way. The press team and sports fundraising team don't use Google Analytics, however both could well be tweeting links or writing external web content. Training changing teams on camapaign parameters was difficult and even if you can get that bit trained you might end up with lots of different ways of spelling a campaign. E.G. 
+However moving to the charity sector (or perhaps just a bigger organisation) I found it difficult to get everyone tracking links in a consistant way. The press team and sports fundraising team don't use Google Analytics, however both could well be tweeting links or writing external web content. Training teams that have a staff turnover on camapaign parameters was difficult and even if training sticks with a settled team you might end up with lots of different ways of spelling a campaign. E.G. 
 
 * LondonMarathon
 * Thelondonmarathon
 * Marathon2015
 
-To solve some of these issues we built a tool so that users just select from dropdowns, removing the elements of choice that led to bad data. Source and medium get set as one selection and campaigns are limited to defined campaigns, have a [look at the demo](http://owendb.github.io/GA-URL-Builder-Plus/), it'll explain it better.
+To solve some of these issues we built a tool so that users select from dropdowns rather than freetext fields, removing the elements of choice that led to bad data. Source and medium get set as one selection and campaigns are limited to defined campaigns, have a [look at the demo](http://owendb.github.io/GA-URL-Builder-Plus/), it'll explain it better. It'll take a tiny bit of setting up but since we've all been using it almost every link goes out tracked consistantly.
 
 ## Credits
 
