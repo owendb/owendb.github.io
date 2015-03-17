@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bitsfromowen</title>
+    <title>bitsfromowen</title>
     <description>Sharing some things we've built</description>
     <link>http://owendb.github.io/</link>
     <atom:link href="http://owendb.github.io/feed.xml" rel="self" type="application/rss+xml" />
@@ -10,7 +10,7 @@
         <title>Google Analytics URL campaign tracker plus</title>
         <description>&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
 
-&lt;p&gt;We&amp;rsquo;ve built a little webpage tool to replace &lt;a href=&quot;https://support.google.com/analytics/answer/1033867?hl=en-GB&quot; target=&quot;_blank&quot;&gt;this&lt;/a&gt;. It&amp;rsquo;s been designed to let multiple users across an organisation add Google Analytics URL tracking to their links in a consistent way that doesn&amp;rsquo;t require indepth knowledge of Google Analyics. Resulting in clean crisp campaign data in Google Analytics and  not having to worry about whether something is a &amp;lsquo;medium&amp;rsquo; or a &amp;#39;source&amp;rsquo;. &lt;/p&gt;
+&lt;p&gt;I built a webpage tool to replace &lt;a href=&quot;https://support.google.com/analytics/answer/1033867?hl=en-GB&quot; target=&quot;_blank&quot;&gt;this&lt;/a&gt; so that users can paste in a link and get the url parameters they need to track their campaign in Google Analytics. It&amp;rsquo;s been designed to let multiple users across an organisation add tracking in a consistent way that doesn&amp;rsquo;t require them to have any knowledge of Google Analytics. Resulting in clean crisp campaign data having to worry about &lt;em&gt;email&lt;/em&gt; being both &lt;em&gt;utm&amp;#95;medium&lt;/em&gt; and &lt;em&gt;utm&amp;#95;source&lt;/em&gt; or completely missing. &lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Here&amp;rsquo;s a demo of it. &lt;/li&gt;
@@ -23,10 +23,10 @@
 &lt;p&gt;Previous to moving to the charity sector I did digital marketing at a mature ecommerce startup. Practically all marketing was via digital channels and anyone posting links on social media or in emails was au fait with Google Analytics as they were in the digital marketing team. So all links went out with nice campaign url parameters added like this: &lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;http://www.example.com?utm&lt;em&gt;source=newsletter&amp;amp;utm&lt;/em&gt;medium=email&amp;amp;utm_content=topbanner&lt;/p&gt;
+&lt;p&gt;http://www.example.com?utm&amp;#95;source=newsletter&amp;amp;utm&amp;#95;medium=email&amp;amp;utm&amp;#95;content=topbanner&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;However moving to the charity sector (or perhaps just a bigger organisation) I found it difficult to get everyone tracking links in a consistant way. The press team and sports fundraising team don&amp;rsquo;t use GA (they should, but that&amp;rsquo;s a separate issue) however both could well be tweeting links or writing external web content. If you don&amp;rsquo;t use Google Analytics is it any wonder you don&amp;rsquo;t always remember whether email is the source or the medium? Even if you can get that bit trained for different teams you might end up with lots of different ways of spelling a campaign. E.G. &lt;/p&gt;
+&lt;p&gt;However moving to the charity sector (or perhaps just a bigger organisation) I found it difficult to get everyone tracking links in a consistant way. The press team and sports fundraising team don&amp;rsquo;t use Google Analytics, however both could well be tweeting links or writing external web content. Training changing teams on camapaign parameters was difficult and even if you can get that bit trained you might end up with lots of different ways of spelling a campaign. E.G. &lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;LondonMarathon&lt;/li&gt;
@@ -34,60 +34,11 @@
 &lt;li&gt;Marathon2015&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;To solve some of these issues we rewrote &lt;a href=&quot;https://support.google.com/analytics/answer/1033867?hl=en-GB&quot; target=&quot;_blank&quot;&gt;this&lt;/a&gt; so that users just get to select from dropdowns, removing the elements of choice that led to confusion resulting in consistant tracked campaigns ready to be analysed. &lt;/p&gt;
-
-&lt;h2 id=&quot;what-are-we-trying-to-solve-and-how-have-we-tried-to-solve-it?&quot;&gt;What are we trying to solve and how have we tried to solve it?&lt;/h2&gt;
-
-&lt;h3 id=&quot;problem-1&quot;&gt;Problem 1&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Is &amp;ldquo;email&amp;rdquo; the medium or the source? What about &amp;ldquo;newsletter&amp;rdquo;? &lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Soloution:&lt;/p&gt;
-
-&lt;p&gt;Make it one dropdown, 99% of the time the two parameters are fixed together, so make it one choice.&lt;/p&gt;
-
-&lt;p&gt;Take this&lt;/p&gt;
-
-&lt;p&gt;1
-2&lt;/p&gt;
-
-&lt;p&gt;and make it this&lt;/p&gt;
-
-&lt;p&gt;3&lt;/p&gt;
-
-&lt;h3 id=&quot;problem-2&quot;&gt;Problem 2&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;How are you spelling the campaign?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Make it one dropdown with one spelling. Campaigns aren&amp;rsquo;t added that often for us, adding a new campaign to the tool is the easiest of adding anything, meaning that most users with really basic HTML knowledge can add them in as and when they need them&lt;/p&gt;
-
-&lt;p&gt;Take this&lt;/p&gt;
-
-&lt;p&gt;1&lt;/p&gt;
-
-&lt;p&gt;and make it this&lt;/p&gt;
-
-&lt;p&gt;2&lt;/p&gt;
-
-&lt;h3 id=&quot;problem-3&quot;&gt;Problem 3&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Urgh, the link is now too long and ugly&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Add a bit.ly API&lt;/p&gt;
-
-&lt;p&gt;Like this&lt;/p&gt;
-
-&lt;p&gt;1&lt;/p&gt;
+&lt;p&gt;To solve some of these issues we built a tool so that users just select from dropdowns, removing the elements of choice that led to bad data. Source and medium get set as one selection and campaigns are limited to defined campaigns, have a look at the demo, it&amp;rsquo;ll explain it better.&lt;/p&gt;
 
 &lt;h2 id=&quot;credits&quot;&gt;Credits&lt;/h2&gt;
 
-&lt;p&gt;This has been a collabartive tool by two cancer charities, Leukaemia &amp;amp; Lymphoma Research and The Royal Marsden Cancer Charity. Thanks to &lt;a href=&quot;#&quot;&gt;Tom&lt;/a&gt; from &lt;a href=&quot;#&quot;&gt;Royal Marsden&lt;/a&gt; for remembering about and finishing the mostly complete but semi abondened code and &lt;a href=&quot;#&quot;&gt;Jim&lt;/a&gt; from &lt;a href=&quot;#&quot;&gt;LLR&lt;/a&gt; for fixing the javascript on version 2.0. Code examples and help on the way from &lt;a href=&quot;#&quot;&gt;this&lt;/a&gt;, &lt;a href=&quot;#&quot;&gt;this&lt;/a&gt;, &lt;a href=&quot;#&quot;&gt;this&lt;/a&gt; and &lt;a href=&quot;#&quot;&gt;this&lt;/a&gt;. Long live copy and paste coding and folks who share examples.&lt;/p&gt;
+&lt;p&gt;Built by staff at two awesome cancer charities, Leukaemia &amp;amp; Lymphoma Research and The Royal Marsden Cancer Charity. Thanks to &lt;a href=&quot;https://twitter.com/thomasmpreston&quot;&gt;Tom&lt;/a&gt; from &lt;a href=&quot;http://www.royalmarsden.org/&quot;&gt;Royal Marsden&lt;/a&gt; for remembering and finsishing the tool when it was still on my list of &amp;ldquo;things I&amp;rsquo;d get round to one day&amp;rdquo; and &lt;a href=&quot;https://twitter.com/james_south&quot;&gt;Jim&lt;/a&gt; from &lt;a href=&quot;http://leukaemialymphomaresearch.org.uk/&quot;&gt;LLR&lt;/a&gt; for fixing some sketchy javascript I&amp;rsquo;d copypaste coded. Code examples and help on the way from &lt;a href=&quot;#&quot;&gt;this&lt;/a&gt;, &lt;a href=&quot;#&quot;&gt;this&lt;/a&gt;, &lt;a href=&quot;#&quot;&gt;this&lt;/a&gt; and &lt;a href=&quot;#&quot;&gt;this&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sat, 07 Mar 2015 19:31:19 +0000</pubDate>
         <link>http://owendb.github.io/googleanalytics/2015/03/07/GA-URL/</link>

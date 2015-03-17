@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Google Analytics URL campaign tracker plus &#8211; Bitsfromowen</title>
+    <title>Google Analytics URL campaign tracker plus &#8211; bitsfromowen</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A better tool for adding campaign parameters onto urls in a multi user organisation">
     <meta name="author" content="Owen Bowden">
@@ -27,7 +27,7 @@
     <meta property="og:title" content="Google Analytics URL campaign tracker plus">
     <meta property="og:description" content="Sharing some things we've built">
     <meta property="og:url" content="http://owendb.github.io/googleanalytics/2015/03/07/GA-URL/">
-    <meta property="og:site_name" content="Bitsfromowen">
+    <meta property="og:site_name" content="bitsfromowen">
 
     <!-- Icons -->
     <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png">
@@ -51,7 +51,7 @@
     <header class="site-header px2 px-responsive">
   <div class="mt2 wrap">
     <div class="measure">
-      <a href="http://owendb.github.io" class="site-title">Bitsfromowen</a>
+      <a href="http://owendb.github.io" class="site-title">bitsfromowen</a>
       <nav class="site-nav right">
         <a href="/about/">About</a>
 <a href="/contact/">Contact</a>
@@ -104,7 +104,7 @@
 <article class="post-content">
   <h2 id="intro">Intro</h2>
 
-<p>We&rsquo;ve built a little webpage tool to replace <a href="https://support.google.com/analytics/answer/1033867?hl=en-GB" target="_blank">this</a>. It&rsquo;s been designed to let multiple users across an organisation add Google Analytics URL tracking to their links in a consistent way that doesn&rsquo;t require indepth knowledge of Google Analyics. Resulting in clean crisp campaign data in Google Analytics and  not having to worry about whether something is a &lsquo;medium&rsquo; or a &#39;source&rsquo;. </p>
+<p>I built a webpage tool to replace <a href="https://support.google.com/analytics/answer/1033867?hl=en-GB" target="_blank">this</a> so that users can paste in a link and get the url parameters they need to track their campaign in Google Analytics. It&rsquo;s been designed to let multiple users across an organisation add tracking in a consistent way that doesn&rsquo;t require them to have any knowledge of Google Analytics. Resulting in clean crisp campaign data having to worry about <em>email</em> being both <em>utm&#95;medium</em> and <em>utm&#95;source</em> or completely missing. </p>
 
 <ul>
 <li>Here&rsquo;s a demo of it. </li>
@@ -117,10 +117,10 @@
 <p>Previous to moving to the charity sector I did digital marketing at a mature ecommerce startup. Practically all marketing was via digital channels and anyone posting links on social media or in emails was au fait with Google Analytics as they were in the digital marketing team. So all links went out with nice campaign url parameters added like this: </p>
 
 <blockquote>
-<p>http://www.example.com?utm<em>source=newsletter&amp;utm</em>medium=email&amp;utm_content=topbanner</p>
+<p>http://www.example.com?utm&#95;source=newsletter&amp;utm&#95;medium=email&amp;utm&#95;content=topbanner</p>
 </blockquote>
 
-<p>However moving to the charity sector (or perhaps just a bigger organisation) I found it difficult to get everyone tracking links in a consistant way. The press team and sports fundraising team don&rsquo;t use GA (they should, but that&rsquo;s a separate issue) however both could well be tweeting links or writing external web content. If you don&rsquo;t use Google Analytics is it any wonder you don&rsquo;t always remember whether email is the source or the medium? Even if you can get that bit trained for different teams you might end up with lots of different ways of spelling a campaign. E.G. </p>
+<p>However moving to the charity sector (or perhaps just a bigger organisation) I found it difficult to get everyone tracking links in a consistant way. The press team and sports fundraising team don&rsquo;t use Google Analytics, however both could well be tweeting links or writing external web content. Training changing teams on camapaign parameters was difficult and even if you can get that bit trained you might end up with lots of different ways of spelling a campaign. E.G. </p>
 
 <ul>
 <li>LondonMarathon</li>
@@ -128,60 +128,11 @@
 <li>Marathon2015</li>
 </ul>
 
-<p>To solve some of these issues we rewrote <a href="https://support.google.com/analytics/answer/1033867?hl=en-GB" target="_blank">this</a> so that users just get to select from dropdowns, removing the elements of choice that led to confusion resulting in consistant tracked campaigns ready to be analysed. </p>
-
-<h2 id="what-are-we-trying-to-solve-and-how-have-we-tried-to-solve-it?">What are we trying to solve and how have we tried to solve it?</h2>
-
-<h3 id="problem-1">Problem 1</h3>
-
-<blockquote>
-<p>Is &ldquo;email&rdquo; the medium or the source? What about &ldquo;newsletter&rdquo;? </p>
-</blockquote>
-
-<p>Soloution:</p>
-
-<p>Make it one dropdown, 99% of the time the two parameters are fixed together, so make it one choice.</p>
-
-<p>Take this</p>
-
-<p>1
-2</p>
-
-<p>and make it this</p>
-
-<p>3</p>
-
-<h3 id="problem-2">Problem 2</h3>
-
-<blockquote>
-<p>How are you spelling the campaign?</p>
-</blockquote>
-
-<p>Make it one dropdown with one spelling. Campaigns aren&rsquo;t added that often for us, adding a new campaign to the tool is the easiest of adding anything, meaning that most users with really basic HTML knowledge can add them in as and when they need them</p>
-
-<p>Take this</p>
-
-<p>1</p>
-
-<p>and make it this</p>
-
-<p>2</p>
-
-<h3 id="problem-3">Problem 3</h3>
-
-<blockquote>
-<p>Urgh, the link is now too long and ugly</p>
-</blockquote>
-
-<p>Add a bit.ly API</p>
-
-<p>Like this</p>
-
-<p>1</p>
+<p>To solve some of these issues we built a tool so that users just select from dropdowns, removing the elements of choice that led to bad data. Source and medium get set as one selection and campaigns are limited to defined campaigns, have a look at the demo, it&rsquo;ll explain it better.</p>
 
 <h2 id="credits">Credits</h2>
 
-<p>This has been a collabartive tool by two cancer charities, Leukaemia &amp; Lymphoma Research and The Royal Marsden Cancer Charity. Thanks to <a href="#">Tom</a> from <a href="#">Royal Marsden</a> for remembering about and finishing the mostly complete but semi abondened code and <a href="#">Jim</a> from <a href="#">LLR</a> for fixing the javascript on version 2.0. Code examples and help on the way from <a href="#">this</a>, <a href="#">this</a>, <a href="#">this</a> and <a href="#">this</a>. Long live copy and paste coding and folks who share examples.</p>
+<p>Built by staff at two awesome cancer charities, Leukaemia &amp; Lymphoma Research and The Royal Marsden Cancer Charity. Thanks to <a href="https://twitter.com/thomasmpreston">Tom</a> from <a href="http://www.royalmarsden.org/">Royal Marsden</a> for remembering and finsishing the tool when it was still on my list of &ldquo;things I&rsquo;d get round to one day&rdquo; and <a href="https://twitter.com/james_south">Jim</a> from <a href="http://leukaemialymphomaresearch.org.uk/">LLR</a> for fixing some sketchy javascript I&rsquo;d copypaste coded. Code examples and help on the way from <a href="#">this</a>, <a href="#">this</a>, <a href="#">this</a> and <a href="#">this</a>.</p>
 
 </article>
 

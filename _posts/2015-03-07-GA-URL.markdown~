@@ -7,9 +7,8 @@ categories: Googleanalytics
 published: true
 ---
 
-##Intro
-
-We've built a little webpage tool to replace <a href="https://support.google.com/analytics/answer/1033867?hl=en-GB" target="_blank">this</a>. It's been designed to let multiple users across an organisation add Google Analytics URL tracking to their links in a consistent way that doesn't require indepth knowledge of Google Analyics. Resulting in clean crisp campaign data in Google Analytics and  not having to worry about whether something is a 'medium' or a 'source'. 
+## Intro
+I built a webpage tool to replace <a href="https://support.google.com/analytics/answer/1033867?hl=en-GB" target="_blank">this</a> so that users can paste in a link and get the url parameters they need to track their campaign in Google Analytics. It's been designed to let multiple users across an organisation add tracking in a consistent way that doesn't require them to have any knowledge of Google Analytics. Resulting in clean crisp campaign data having to worry about _email_ being both _utm&#95;medium_ and _utm&#95;source_ or completely missing. 
 
 * Here's a demo of it. 
 * Download it as a zip here (with setup instructions). 
@@ -20,59 +19,16 @@ We've built a little webpage tool to replace <a href="https://support.google.com
 
 Previous to moving to the charity sector I did digital marketing at a mature ecommerce startup. Practically all marketing was via digital channels and anyone posting links on social media or in emails was au fait with Google Analytics as they were in the digital marketing team. So all links went out with nice campaign url parameters added like this: 
 
-> http://www.example.com?utm_source=newsletter&utm_medium=email&utm_content=topbanner
+> http://www.example.com?utm&#95;source=newsletter&utm&#95;medium=email&utm&#95;content=topbanner
 
-However moving to the charity sector (or perhaps just a bigger organisation) I found it difficult to get everyone tracking links in a consistant way. The press team and sports fundraising team don't use Google Analytics often or at all however both could well be tweeting links or writing external web content. If you don't use Google Analytics is it any wonder you don't always remember whether email is the source or the medium? Even if you can get that bit trained you might end up with lots of different ways of spelling a campaign. E.G. 
+However moving to the charity sector (or perhaps just a bigger organisation) I found it difficult to get everyone tracking links in a consistant way. The press team and sports fundraising team don't use Google Analytics, however both could well be tweeting links or writing external web content. Training changing teams on camapaign parameters was difficult and even if you can get that bit trained you might end up with lots of different ways of spelling a campaign. E.G. 
 
 * LondonMarathon
 * Thelondonmarathon
 * Marathon2015
 
-To solve some of these issues we rewrote <a href="https://support.google.com/analytics/answer/1033867?hl=en-GB" target="_blank">this</a> so that users just get to select from dropdowns, removing the elements of choice that led to confusion resulting in consistant tracked campaigns ready to be analysed. 
-
-## What are we trying to solve and how have we tried to solve it?
-
-### Problem 1
-
-> Is "email" the medium or the source? What about "newsletter"? 
-
-Soloution:
-
-Make it one dropdown, 99% of the time the two parameters are fixed together, so make it one choice.
-
-Take this
-
-1
-2
-
-and make it this
-
-3
-
-### Problem 2
-
-> How are you spelling the campaign?
-
-Make it one dropdown with one spelling. Campaigns aren't added that often for us, adding a new campaign to the tool is the easiest of adding anything, meaning that most users with really basic HTML knowledge can add them in as and when they need them
-
-Take this
-
-1
-
-and make it this
-
-2
-
-### Problem 3
-
-> Urgh, the link is now too long and ugly
-
-Add a bit.ly API
-
-Like this
-
-1
+To solve some of these issues we built a tool so that users just select from dropdowns, removing the elements of choice that led to bad data. Source and medium get set as one selection and campaigns are limited to defined campaigns, have a look at the demo, it'll explain it better.
 
 ## Credits
 
-This has been a collabartive tool by two cancer charities, Leukaemia & Lymphoma Research and The Royal Marsden Cancer Charity. Thanks to [Tom](#) from [Royal Marsden](#) for remembering about and finishing the mostly complete but semi abondened code and [Jim](#) from [LLR](#) for fixing the javascript on version 2.0. Code examples and help on the way from [this](#), [this](#), [this](#) and [this](#). Long live copy and paste coding and folks who share examples.
+Built by staff at two awesome cancer charities, Leukaemia & Lymphoma Research and The Royal Marsden Cancer Charity. Thanks to [Tom](https://twitter.com/thomasmpreston) from [Royal Marsden](http://www.royalmarsden.org/) for remembering and finsishing the tool when it was still on my list of "things I'd get round to one day" and [Jim](https://twitter.com/james_south) from [LLR](http://leukaemialymphomaresearch.org.uk/) for fixing some sketchy javascript I'd copypaste coded. Code examples and help on the way from [this](#), [this](#), [this](#) and [this](#).
