@@ -27,7 +27,7 @@ However moving to the charity sector (or perhaps just a bigger organisation) I f
 * Thelondonmarathon
 * Marathon2015
 
-To solve some of these issues we built a tool so that users select from dropdowns rather than freetext fields, removing the elements of choice that led to bad data. Source and medium get set as one selection and campaigns are limited to defined campaigns, have a [look at the demo](http://owendb.github.io/GA-URL-Builder-Plus/), it'll explain it better. You'll need to tweak the HTML to set it up for the sources/mediums/campaigns which you use. Since we went live almost every link that goes out is tracked up from less than half.
+To solve some of these issues we built a tool so that users select from dropdowns rather than freetext fields, removing the elements of choice that led to bad data. Source and medium get set as one selection and campaigns are limited to defined campaigns, have a [look at the demo](http://owendb.github.io/GA-URL-Builder-Plus/), it'll explain it better. You'll need to tweak the HTML to set it up for the sources/mediums/campaigns which you use. Since we went live almost every link that goes out is tracked, up from less than half.
 
 ## Credits
 
